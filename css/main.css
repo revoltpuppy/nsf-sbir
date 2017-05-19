@@ -110,13 +110,18 @@ header .logo {
 .col .button {
   padding: 10px 20px;
   margin: 30px 0;
-  border: 1px solid #000;
+  border: 1px solid #02bfe7;
   font: 400 12px/20px 'Overpass Mono', monospace;
   display: inline-block;
+  text-decoration: none;
+  color: #000;
 }
 .col .button::before {
   content: "\2192";
   font-family: 'Work Sans';
+}
+.col .button:hover {
+  background-color: #FFFFFF;
 }
 p {
   font-size: 14px;
