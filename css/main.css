@@ -1,0 +1,248 @@
+body {
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('../images/MiroMatrix  Still 003.png') center top no-repeat fixed;
+}
+h1 {
+  color: #FFF;
+  font-size: 70px;
+  font-weight: 800;
+  /*line-height: 1.325;*/
+  line-height: .8625;
+  text-transform: uppercase;
+  letter-spacing: -.025em;
+  width: 75%;
+  margin: 0;
+}
+h1 .highlight {
+  /*background-color: rgba(2,191,231,.7);*/
+  background-color: rgba(255,255,255,.7);
+}
+h1.big {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 74px;
+  text-transform: uppercase;
+  letter-spacing: -4px;
+  width: 380px;
+  margin: 0;
+  padding: 0;
+}
+h1 em {
+  display: block;
+  color: #000;
+  /*color: #046B99;*/
+  font-style: normal;
+}
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+  /*text-transform: uppercase;
+  width: 940px;
+  margin: 90px auto;
+  padding: 0 10px;*/
+}
+.three-column .col h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.325;
+  height: 50px;
+  letter-spacing: -.02em;
+}
+.three-column .col p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.625;
+  padding-right: 20px;
+}
+/*h1.eyebrow, h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+}*/
+/*header h1.eyebrow {
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 218px 0 36px 0;
+}*/
+/*header {
+  position: relative;
+}*/
+header .logo {
+  height: 40px;
+  padding: 30px 0 100px;
+}
+/*.hero .content {
+  background-color: rgba(255,255,255,.6);
+  position: absolute;
+  bottom: 0;
+  padding: 30px 40px 60px 40px;
+  width: 300px;
+  display: block;
+}*/
+/*.hero .content .button {
+  padding: 10px 25px 10px 20px;
+  font: 600 1.25em/1.2 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fdb81e;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 0;
+}
+.hero .content .button .subtext {
+  display: block;
+  font: 400 .675em 'Overpass Mono', monospace;
+}*/
+.hero .button {
+  padding: 10px 25px 10px 20px;
+  font: 600 1.5em/1.2 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fff039;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 0;
+}
+.hero .button .subtext {
+  display: block;
+  font: 400 14px/1.5 'Overpass Mono', monospace;
+}
+.col .button {
+  padding: 10px 20px;
+  margin: 30px 0;
+  border: 1px solid #000;
+  font: 400 12px/20px 'Overpass Mono', monospace;
+  display: inline-block;
+}
+.col .button::before {
+  content: "\2192";
+  font-family: 'Work Sans';
+}
+p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.program-info p {
+  font: 600 30px/40px 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
+  width: 620px;
+  letter-spacing: -.005em;
+  margin: 60px auto;
+}
+.program-info p a {
+  color: #fbb;
+  text-decoration: none;
+  border-bottom: 1px dotted #fbb;
+}
+.program-info abbr {
+  font-family: 'Playfair Display SC', serif;
+  font-style: normal;
+}
+ul {
+  list-style-type: none;
+  padding: 0 10px 120px;
+  margin: 0 auto;
+  max-width: 960px;
+  height: auto;
+  overflow: hidden;
+}
+li {
+  width: 298px;
+  height: 500px;
+  background-color: #fff;
+  border: 1px solid #d3ded9;
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+}
+li img {
+  width: 300px;
+  height: 250px;
+}
+li h3 {
+  padding: 30px 50px 0 50px;
+  height: 40px;
+}
+li p {
+  margin: 0 50px 20px 34px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 16px;
+}
+li p a {
+  text-decoration: none;
+  color: #046b99;
+}
+li p a::before {
+  content: "\2192  ";
+  margin-left: -16px;
+}
+address {
+  font-size: 16px;
+  line-height: 30px;
+  font-style: normal;
+  /*color: #fff;*/
+}
+address h3 {
+  font-size: 16px;
+  color: #000;
+}
+.de-emphasize {
+  font-weight: 300;
+  color: #fff;
+}
+
+/* Structure */
+.container-fluid {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  clear: both;
+}
+.hero {
+  background: transparent url(../images/tile.gif) repeat;
+}
+.program-info {
+  background-color: #02bfe7;
+  padding: 60px 0;
+  color: #00202A;
+}
+header {
+  height: 570px;
+  width: 960px;
+  margin: 0 auto;
+}
+section {
+  max-width: 980px;
+  margin: 0 auto;
+}
+section.three-column {
+  /*display: block;*/
+  padding: 50px 0;
+  overflow: hidden;
+  height: auto;
+}
+
+section.three-column .col {
+  width: 300px;
+  padding-right: 20px;
+  padding-bottom: 60px;
+  float: left;
+}
+section.three-column .col:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.short-divider {
+  width: 60px;
+  border-top: 1px solid #fff;
+  margin: 60px 0 60px 170px;
+}
+/* colors */
+.bg-color {
+  /*background-color: #D1E4EC;*/
+  background-color: #F5FBFC;
+}

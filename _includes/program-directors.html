@@ -1,9 +1,0 @@
-<ul>
-{% for topic in site.data.tech-topics %}
-  {% for programDirector in topic.programDirector %}
-    <li>
-      <a href="mailto:{{ programDirector.email }}">{{ programDirector.name }}</a> - {{ topic.topic }}
-    </li>
-  {% endfor %}
-{% endfor %}
-</ul>
