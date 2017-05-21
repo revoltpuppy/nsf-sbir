@@ -142,19 +142,21 @@ header .logo {
 }
 ul {
   list-style-type: none;
-  padding: 0 10px 120px;
+  padding: 0 0 120px 0;
   margin: 0 auto;
   max-width: 960px;
   height: auto;
   overflow: hidden;
 }
 li {
-  width: 298px;
+  box-sizing: border-box;
+  width: calc(33% - 20px);
+  min-width: 298px;
   height: 500px;
   background-color: #fff;
   border: 1px solid #d3ded9;
   float: left;
-  margin: 10px;
+  margin: 0 10px 20px 10px;
   overflow: hidden;
 }
 li img {
@@ -211,8 +213,8 @@ address h3 {
   /*background-color: #02bfe7;*/
   padding: 60px 0 90px 0;
   /*color: #00202A;*/
-  color: #2C3E50;
   /*color: #34415E;*/
+  color: #2C3E50;
 }
 header {
   height: 570px;
@@ -220,26 +222,20 @@ header {
   margin: 0 auto;
 }
 section {
-  max-width: 980px;
+  max-width: 960px;
   margin: 0 auto;
 }
 section.three-column {
-  /*display: block;*/
+  display: flex;
   padding: 50px 0;
   overflow: hidden;
   height: auto;
 }
 section.three-column .col {
-  width: calc(33% - 20px);
-  min-width: 280px;
+  min-width: 300px;
   padding-right: 20px;
   padding-bottom: 60px;
-  float: left;
-}
-section.three-column .col:after {
-  content: "";
-  display: table;
-  clear: both;
+  flex-flow: column;
 }
 section.two-column {
   /*padding: 60px 0;*/
