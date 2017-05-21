@@ -1,10 +1,12 @@
 body {
-  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
+}
+body#home {
   background: #AAAAAA url('../images/miromatrix.png') center top no-repeat fixed;
 }
-h1 {
+#home h1 {
   color: #FFF;
   font-size: 70px;
   font-weight: 800;
@@ -14,11 +16,11 @@ h1 {
   width: 75%;
   margin: 0;
 }
-h1 .highlight {
+#home h1 .highlight {
   /*background-color: rgba(2,191,231,.7);*/
   background-color: rgba(255,255,255,.7);
 }
-h1.big {
+#home h1.big {
   font-size: 90px;
   font-weight: 700;
   line-height: 74px;
@@ -28,7 +30,7 @@ h1.big {
   margin: 0;
   padding: 0;
 }
-h1 em {
+#home h1 em {
   display: block;
   color: #000000;
   /*color: #046B99;*/
@@ -66,11 +68,11 @@ p {
   margin-bottom: 20px;
   padding-right: 50px;
 }
-header .logo {
+#home header .logo {
   height: 40px;
   padding: 30px 0 100px;
 }
-.hero .button {
+#home .hero .button {
   padding: 10px 25px 10px 20px;
   font: 600 1.5em/1.2 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #fff039;
@@ -78,7 +80,7 @@ header .logo {
   text-align: center;
   margin: 20px 0;
 }
-.hero .button .subtext {
+#home .hero .button .subtext {
   display: block;
   font: 400 14px/1.5 'Overpass Mono', monospace;
 }
@@ -95,7 +97,7 @@ header .logo {
 }
 .col .button::before {
   content: "\2192";
-  font-family: 'Work Sans';
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
   width: 25px;
   display: inline-block;
 }
@@ -138,51 +140,7 @@ header .logo {
   content: "\2192";
   display: inline-block;
   width: 25px;
-  font-family: "Work Sans", 'Helvetica Neue', Arial, sans-serif;
-}
-ul {
-  list-style-type: none;
-  padding: 0 0 120px 0;
-  margin: 0 auto;
-  max-width: 960px;
-  height: auto;
-  overflow: hidden;
-}
-li {
-  box-sizing: border-box;
-  width: calc(33% - 20px);
-  min-width: 298px;
-  height: 500px;
-  background-color: #fff;
-  border: 1px solid #d3ded9;
-  float: left;
-  margin: 0 10px 20px 10px;
-  overflow: hidden;
-}
-li img {
-  width: 300px;
-  height: 250px;
-}
-li h3 {
-  padding: 30px 50px 0 50px;
-  height: 40px;
-}
-li p {
-  margin: 0 50px 20px 34px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  padding-left: 16px;
-}
-li p a {
-  text-decoration: none;
-  color: #046b99;
-}
-li p a::before {
-  content: "\2192  ";
-  margin-left: -16px;
-  width: 16px;
-  display: inline-block;
+  font-family: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 address {
   font-size: 16px;
@@ -216,7 +174,7 @@ address h3 {
   /*color: #34415E;*/
   color: #2C3E50;
 }
-header {
+#home header {
   height: 570px;
   width: 960px;
   margin: 0 auto;
@@ -238,20 +196,13 @@ section.three-column .col {
   flex-flow: column;
 }
 section.two-column {
-  /*padding: 60px 0;*/
-  overflow: hidden;
-  height: auto;
+  display: flex;
 }
 section.two-column .col {
   width: calc(50% - 20px);
-  min-width: 320px;
+  min-width: 300px;
   padding-right: 20px;
-  float: left;
-}
-section.two-column .col:after {
-  content: "";
-  display: table;
-  clear: both;
+  flex-flow: column;
 }
 .short-divider {
   width: 60px;
@@ -259,13 +210,13 @@ section.two-column .col:after {
   margin: 90px 0 90px 170px;
 }
 /* colors */
-.bg-color {
+.background-light-neutral {
   background-color: #F5FBFC;
 }
 .background-primary {
   background-color: #9bdaf1;
 }
-.alt-background-light {
+.background-light-blue {
   background-color: #E0F3F8;
   padding: 60px 0 120px 0;
   /*color: #dce4ef;*/

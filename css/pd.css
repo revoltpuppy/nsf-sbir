@@ -1,0 +1,45 @@
+ul#program-directors {
+  list-style-type: none;
+  padding: 0 0 120px 0;
+  margin: 0 auto;
+  max-width: 960px;
+  height: auto;
+  overflow: hidden;
+}
+ul#program-directors li {
+  background-color: #fff;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  float: left;
+  height: 500px;
+  margin: 0 10px 20px 10px;
+  min-width: 298px;
+  overflow: hidden;
+  width: calc(33% - 20px);
+}
+ul#program-directors li img {
+  height: 250px;
+  width: 300px;
+}
+ul#program-directors li h3 {
+  height: 40px;
+  padding: 30px 50px 0 50px;
+}
+ul#program-directors li p {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 0 50px 20px 34px;
+  padding-left: 16px;
+}
+ul#program-directors li p a {
+  color: #046b99;
+  text-decoration: none;
+}
+ul#program-directors li p a::before {
+  content: "\2192  ";
+  display: inline-block;
+  font-family: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
+  margin-left: -20px;
+  width: 20px;
+}
