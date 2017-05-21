@@ -3,39 +3,6 @@ body {
   margin: 0;
   padding: 0;
 }
-body#home {
-  background: #AAAAAA url('../images/miromatrix.png') center top no-repeat fixed;
-}
-#home h1 {
-  color: #FFF;
-  font-size: 70px;
-  font-weight: 800;
-  line-height: .8625;
-  text-transform: uppercase;
-  letter-spacing: -.025em;
-  width: 75%;
-  margin: 0;
-}
-#home h1 .highlight {
-  /*background-color: rgba(2,191,231,.7);*/
-  background-color: rgba(255,255,255,.7);
-}
-#home h1.big {
-  font-size: 90px;
-  font-weight: 700;
-  line-height: 74px;
-  text-transform: uppercase;
-  letter-spacing: -4px;
-  width: 380px;
-  margin: 0;
-  padding: 0;
-}
-#home h1 em {
-  display: block;
-  color: #000000;
-  /*color: #046B99;*/
-  font-style: normal;
-}
 h2 {
   font-weight: 700;
   font-size: 36px;
@@ -44,6 +11,52 @@ p {
   font-size: 14px;
   margin: 0;
   padding: 0;
+}
+address {
+  font-size: 16px;
+  line-height: 30px;
+  font-style: normal;
+  /*color: #fff;*/
+}
+address h3 {
+  font-size: 16px;
+  color: #2C3E50;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0 20px 0;
+}
+nav .logo {
+  /*float: left;*/
+  flex-direction: row;
+}
+nav ul {
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 0 10px 0;
+  margin: 0;
+  display: inline-block;
+  font-size: 11px;
+  font-family: 'Overpass Mono';
+  /*font-weight: 400;*/
+  /*text-transform: uppercase;
+  letter-spacing: .03em;*/
+  /*border: 1px solid #f00;*/
+}
+nav ul li:not(:last-child) {
+  padding-right: 25px;
+}
+nav ul li a {
+  color: #112e51;
+  text-decoration: none;
+}
+.logo {
+  height: 30px;
 }
 .three-column .col h2 {
   font-weight: 600;
@@ -67,22 +80,6 @@ p {
   line-height: 30px;
   margin-bottom: 20px;
   padding-right: 50px;
-}
-#home header .logo {
-  height: 40px;
-  padding: 30px 0 100px;
-}
-#home .hero .button {
-  padding: 10px 25px 10px 20px;
-  font: 600 1.5em/1.2 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #fff039;
-  display: inline-block;
-  text-align: center;
-  margin: 20px 0;
-}
-#home .hero .button .subtext {
-  display: block;
-  font: 400 14px/1.5 'Overpass Mono', monospace;
 }
 .col .button {
   border: 1px solid #02bfe7;
@@ -142,30 +139,32 @@ p {
   width: 25px;
   font-family: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
 }
-address {
-  font-size: 16px;
-  line-height: 30px;
-  font-style: normal;
-  /*color: #fff;*/
-}
-address h3 {
-  font-size: 16px;
-  color: #2C3E50;
-}
 .de-emphasize {
   font-weight: 300;
   color: #fff;
 }
 
 /* Structure */
+.container,
+header,
+section {
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.container,
+section {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .container-fluid {
   width: 100%;
   height: auto;
   overflow: hidden;
   clear: both;
 }
-.hero {
-  background: transparent url(../images/tile.gif) repeat;
+header {
+
 }
 .program-info {
   /*background-color: #02bfe7;*/
@@ -174,35 +173,31 @@ address h3 {
   /*color: #34415E;*/
   color: #2C3E50;
 }
-#home header {
-  height: 570px;
-  width: 960px;
-  margin: 0 auto;
-}
-section {
-  max-width: 960px;
-  margin: 0 auto;
-}
 section.three-column {
   display: flex;
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
   overflow: hidden;
   height: auto;
 }
 section.three-column .col {
-  min-width: 300px;
-  padding-right: 20px;
+  width: 300px;
   padding-bottom: 60px;
-  flex-flow: column;
+  flex-direction: column;
+}
+section.three-column .col:not(:last-child) {
+  padding-right: 10px;
 }
 section.two-column {
   display: flex;
 }
 section.two-column .col {
-  width: calc(50% - 20px);
-  min-width: 300px;
-  padding-right: 20px;
+  width: calc(50%);
+  /*min-width: 300px;*/
   flex-flow: column;
+}
+section.two-column .col:not(:last-child) {
+  padding-right: 20px;
 }
 .short-divider {
   width: 60px;
@@ -220,4 +215,64 @@ section.two-column .col {
   background-color: #E0F3F8;
   padding: 60px 0 120px 0;
   /*color: #dce4ef;*/
+}
+
+/*********************/
+/* Home page *********/
+#home {
+  background: #AAAAAA url('../images/miromatrix.png') center top no-repeat fixed;
+}
+#home h1 {
+  color: #FFF;
+  font-size: 70px;
+  font-weight: 800;
+  line-height: .8625;
+  text-transform: uppercase;
+  letter-spacing: -.025em;
+  width: 75%;
+  margin: 0;
+}
+#home h1 .highlight {
+  /*background-color: rgba(2,191,231,.7);*/
+  background-color: rgba(255,255,255,.7);
+}
+#home h1.big {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 74px;
+  text-transform: uppercase;
+  letter-spacing: -4px;
+  width: 380px;
+  margin: 0;
+  padding: 0;
+}
+#home h1 em {
+  display: block;
+  color: #000000;
+  /*color: #046B99;*/
+  font-style: normal;
+}
+#home header .logo {
+  height: 40px;
+  padding: 30px 0 100px;
+}
+#home .hero .button {
+  padding: 10px 25px 10px 20px;
+  font: 600 1.5em/1.2 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fff039;
+  display: inline-block;
+  text-align: center;
+  margin: 20px 0;
+}
+#home .hero .button .subtext {
+  display: block;
+  font: 400 14px/1.5 'Overpass Mono', monospace;
+}
+#home header {
+  height: 570px;
+  width: 960px;
+  margin: 0 auto;
+}
+#home .hero {
+  background: transparent url(../images/tile.gif) repeat;
 }

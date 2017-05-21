@@ -5,32 +5,35 @@ ul#program-directors {
   max-width: 960px;
   height: auto;
   overflow: hidden;
+  /*border: 1px solid #f00;*/
+  /*display: flex;*/
 }
 ul#program-directors li {
   background-color: #fff;
   border: 1px solid #fff;
-  box-sizing: border-box;
   float: left;
   height: 500px;
-  margin: 0 10px 20px 10px;
-  min-width: 298px;
+  margin: 0 18px 20px 0;
+  width: 285px;
   overflow: hidden;
-  width: calc(33% - 20px);
+  /*width: calc(33% - 20px);*/
+  /*flex-direction: row;
+  flex-wrap: wrap;*/
 }
 ul#program-directors li img {
   height: 250px;
-  width: 300px;
+  width: 285px;
 }
 ul#program-directors li h3 {
   height: 40px;
-  padding: 30px 50px 0 50px;
+  padding: 30px 40px 0 40px;
 }
 ul#program-directors li p {
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
-  margin: 0 50px 10px 34px;
-  padding-left: 16px;
+  margin: 0 40px 10px 24px;
+  padding: 0 0 0 16px;
 }
 ul#program-directors li p a {
   color: #046b99;
@@ -42,4 +45,5 @@ ul#program-directors li p a::before {
   font-family: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
   margin-left: -20px;
   width: 20px;
+  color: #02bfe7;
 }
