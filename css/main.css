@@ -32,6 +32,21 @@ h3.large {
 h4 {
   font-size: 2rem;
 }
+h5 {
+  font-size: 1.6rem;
+}
+h2.bar, h3.bar, h4.bar, h5.bar {
+  position: relative;
+}
+h2.bar:before, h3.bar:before, h4.bar:before, h5.bar:before {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  top: -15px;
+  left: 0;
+  height: 2px;
+  width: 60px;
+}
 p, ul li {
   /*font-size: 1.4rem;
   line-height: 1.7;*/
@@ -53,8 +68,13 @@ p.medium, ul.medium li {
   margin-bottom: 1.5rem;
   width: 66%;
 }
-p.small, ul.small li {
-
+.subhead {
+  font-family: 'Overpass Mono', monospace;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  padding: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: .03em;
 }
 address {
   font-size: 1.6rem;
