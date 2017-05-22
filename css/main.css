@@ -1,10 +1,17 @@
+html {
+  font-size: 62.5%;
+}
 body {
   font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
+h1, h2, h3, h4, h5, h6, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
 h1 {
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: 800;
   line-height: 1.2;
   /*text-transform: uppercase;*/
@@ -13,21 +20,40 @@ h1 {
 }
 h2 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 3.6rem;
+}
+h3 {
+  font-size: 2rem;
 }
 p {
-  font-size: 14px;
-  margin: 0;
-  padding: 0;
+  /*font-size: 1.4rem;
+  line-height: 1.7;*/
+  font-size: 1.4rem;
+  line-height: 1.625;
+  margin-bottom: 1.5rem;
+  max-width: 500px;
+}
+p.large {
+  font-size: 2.4rem;
+  line-height: 1.625;
+  width: 66%;
+  max-width: 620px;
+  margin-bottom: 1.5rem;
+}
+p.medium {
+  font-size: 1.8rem;
+  line-height: 1.75;
+  margin-bottom: 1.5rem;
+  width: 66%;
 }
 address {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1.6rem;
+  line-height: 3rem;
   font-style: normal;
   /*color: #fff;*/
 }
 address h3 {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #2C3E50;
 }
 nav {
@@ -48,7 +74,7 @@ nav ul li {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 11px;
+  font-size: 1.1rem;
   font-family: 'Overpass Mono';
   display: inline-block;
 }
@@ -63,28 +89,28 @@ nav ul li a {
   display: block;
 }
 .logo {
-  height: 30px;
+  height: 3rem;
 }
 .three-column .col h2 {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 1.325;
-  height: 50px;
+  height: 60px;
   letter-spacing: -.02em;
 }
 .three-column .col p {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 400;
   line-height: 1.625;
   padding-right: 20px;
 }
-.two-column .col h2 {
-  margin: 0 0 40px 0;
+.two-column .col h3 {
+  margin: 0 0 20px 0;
 }
 .two-column p {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.875;
   margin-bottom: 20px;
   padding-right: 50px;
 }
@@ -92,7 +118,7 @@ nav ul li a {
   border: 1px solid #02bfe7;
   color: #000000;
   display: inline-block;
-  font: 400 12px/20px 'Overpass Mono', monospace;
+  font: 400 1.2rem/1.5 'Overpass Mono', monospace;
   margin: 30px 0;
   min-width: 120px;
   padding: 10px 20px 10px 10px;
@@ -113,12 +139,12 @@ nav ul li a {
   max-width: 620px;
 }
 .program-info p.large {
-  font: 700 28px/50px 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
+  font: 700 2.8rem/1.785 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
   letter-spacing: -.005em;
   margin-bottom: 30px;
 }
 .program-info p.small {
-  font: 400 20px/40px 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
+  font: 400 2rem/2 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
   margin-bottom: 30px;
 }
 .program-info p a {
@@ -131,7 +157,7 @@ nav ul li a {
   border: none;
   color: #000;
   display: inline-block;
-  font: 14px/1.2 'Overpass Mono', monospace;
+  font: 1.4rem/1.2 'Overpass Mono', monospace;
   margin: 20px 0;
   padding: 20px 30px;
 }
@@ -254,7 +280,7 @@ section.two-column .col:not(:last-child) {
 }
 #home h1 {
   color: #FFF;
-  font-size: 70px;
+  font-size: 7rem;
   font-weight: 800;
   line-height: .8625;
   text-transform: uppercase;
@@ -315,7 +341,7 @@ section.two-column .col:not(:last-child) {
 }
 #home .hero .button {
   padding: 10px 25px 10px 20px;
-  font: 600 1.25em/1.2 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: 600 2rem/1.2 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #fff039;
   display: inline-block;
   text-align: center;
@@ -323,7 +349,7 @@ section.two-column .col:not(:last-child) {
 }
 #home .hero .button .subtext {
   display: block;
-  font: 400 12px/1.5 'Overpass Mono', monospace;
+  font: 400 1.2rem/1.5 'Overpass Mono', monospace;
 }
 
 #home .hero {
