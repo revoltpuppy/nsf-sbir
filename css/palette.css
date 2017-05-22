@@ -1,0 +1,79 @@
+/* Colors *******************/
+/****************************/
+
+/* Primary ******************/
+.background-primary {
+  background-color: #0071BC;
+}
+.background-primary-medium {
+  background-color: #9BDAF1;
+}
+.background-primary-darker {
+  background-color: #205493;
+}
+.background-primary-darkest {
+  background-color: #112E51;
+}
+.background-base {
+  background-color: #212121;
+}
+.background-gray-dark {
+  background-color: #323a45;
+}
+.background-gray-light {
+  background-color: #AEB0B5;
+}
+.background-white {
+  background-color: #FFFFFF;
+}
+/* Secondary ****************/
+.background-primary-alt {
+  background-color: #02BFE7;
+}
+.background-primary-alt-darkest {
+  background-color: #046b99;
+}
+.background-primary-alt-dark {
+  background-color: #00a6d2;
+}
+.background-primary-alt-light {
+  background-color: #9bdaf1;
+}
+.background-primary-alt-lightest {
+  background-color: #e1f3f8;
+}
+.background-secondary {
+  background-color: #e1f3f8;
+}
+.background-secondary-darkest {
+  background-color: #981b1e;
+}
+.background-secondary-dark {
+  background-color: #cd2026;
+}
+.background-secondary-light {
+  background-color: #e59393;
+}
+.background-secondary-lightest {
+  background-color: #f9dede;
+}
+/* Background colors */
+.background-light-neutral {
+  background-color: #F5FBFC;
+}
+.background-light-blue {
+  background-color: #E0F3F8;
+}
+/* Tertiary **********/
+.background-yellow {
+  background-color: #FFF039;
+}
+.background-yellow-light {
+  background-color: #FFF79C;
+}
+.background-yellow-lightest {
+  background-color: #FFFAC3;
+}
+
+/* Structure ****************/
+/* for dispay purposes only */
