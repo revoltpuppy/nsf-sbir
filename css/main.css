@@ -3,6 +3,14 @@ body {
   margin: 0;
   padding: 0;
 }
+h1 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1.2;
+  /*text-transform: uppercase;*/
+  letter-spacing: -.015em;
+  margin: 0;
+}
 h2 {
   font-weight: 700;
   font-size: 36px;
@@ -107,9 +115,7 @@ nav ul li a {
 .program-info p.large {
   font: 700 28px/50px 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
   letter-spacing: -.005em;
-  /*margin-top: 30px;*/
   margin-bottom: 30px;
-  /*padding-bottom: 30px;*/
 }
 .program-info p.small {
   font: 400 20px/40px 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -162,26 +168,18 @@ section {
   overflow: hidden;
   clear: both;
 }
-header {
-
-}
 .program-info {
-  /*background-color: #02bfe7;*/
-  padding: 60px 0 90px 0;
-  /*color: #00202A;*/
-  /*color: #34415E;*/
   color: #2C3E50;
 }
 section.three-column {
   display: flex;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /*padding-top: 50px;*/
+  /*padding-bottom: 50px;*/
   overflow: hidden;
   height: auto;
 }
 section.three-column .col {
   width: 300px;
-  padding-bottom: 60px;
   flex-direction: column;
 }
 section.three-column .col:not(:last-child) {
@@ -201,9 +199,10 @@ section.two-column .col:not(:last-child) {
 .short-divider {
   width: 60px;
   border-top: 1px solid #fff;
-  margin: 90px 0 90px 170px;
+  margin: 60px 0 60px 150px;
 }
-/* colors */
+/*********************/
+/* colors ************/
 .background-light-neutral {
   background-color: #F5FBFC;
 }
@@ -212,10 +211,42 @@ section.two-column .col:not(:last-child) {
 }
 .background-light-blue {
   background-color: #E0F3F8;
-  padding: 60px 0 120px 0;
-  /*color: #dce4ef;*/
 }
-
+/*********************/
+/* spacer units ******/
+.pad-vtop-20 {
+  padding-top: 20px;
+}
+.pad-vtop-30 {
+  padding-top: 30px;
+}
+.pad-vtop-40 {
+  padding-top: 40px;
+}
+.pad-vtop-50 {
+  padding-top: 50px;
+}
+.pad-vtop-60 {
+  padding-top: 60px;
+}
+.pad-vbottom-20 {
+  padding-bottom: 20px;
+}
+.pad-vbottom-40 {
+  padding-bottom: 40px;
+}
+.pad-vbottom-50 {
+  padding-bottom: 50px;
+}
+.pad-vbottom-60 {
+  padding-bottom: 60px;
+}
+.pad-vbottom-100 {
+  padding-bottom: 100px;
+}
+.pad-vbottom-120 {
+  padding-bottom: 120px;
+}
 /*********************/
 /* Home page *********/
 #home {
@@ -251,6 +282,13 @@ section.two-column .col:not(:last-child) {
   /*color: #046B99;*/
   font-style: normal;
 }
+#home header {
+  height: 570px;
+  width: 960px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 #home header .logo {
   height: 40px;
   padding: 30px 0 100px;
@@ -267,11 +305,7 @@ section.two-column .col:not(:last-child) {
   display: block;
   font: 400 14px/1.5 'Overpass Mono', monospace;
 }
-#home header {
-  height: 570px;
-  width: 960px;
-  margin: 0 auto;
-}
+
 #home .hero {
   background: transparent url(../images/tile.gif) repeat;
 }
