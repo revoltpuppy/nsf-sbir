@@ -45,6 +45,13 @@
 .background-yellow-light {
   background-color: #FFF79C;
 }
+.background-yellow-dark {
+  /*background-color: #F1E235;*/
+  background-color: #FFE61A;
+}
+.background-yellow-darkest {
+  background-color: #E4D532;
+}
 .background-yellow-lightest {
   background-color: #FFFAC3;
 }
