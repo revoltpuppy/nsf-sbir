@@ -5,9 +5,6 @@
 .background-primary {
   background-color: #0071BC;
 }
-.background-primary-medium {
-  background-color: #9BDAF1;
-}
 .background-primary-darker {
   background-color: #205493;
 }
@@ -42,29 +39,6 @@
 .background-primary-alt-lightest {
   background-color: #e1f3f8;
 }
-.background-secondary {
-  background-color: #e31c3d;
-}
-.background-secondary-darkest {
-  background-color: #981b1e;
-}
-.background-secondary-dark {
-  background-color: #cd2026;
-}
-.background-secondary-light {
-  background-color: #e59393;
-}
-.background-secondary-lightest {
-  background-color: #f9dede;
-}
-/* Background colors */
-.background-light-neutral {
-  background-color: #F5FBFC;
-}
-.background-light-blue {
-  background-color: #E0F3F8;
-}
-/* Tertiary **********/
 .background-yellow {
   background-color: #FFF039;
 }
@@ -74,6 +48,34 @@
 .background-yellow-lightest {
   background-color: #FFFAC3;
 }
+
+/* Background colors */
+.background-light-neutral {
+  background-color: #F5FBFC;
+}
+.background-light-blue {
+  background-color: #E0F3F8;
+}
+.background-gray-warm-light {
+  background-color: #E4E2E0;
+}
+/* Tertiary **********/
+.background-tertiary {
+  background-color: #e31c3d;
+}
+.background-tertiary-darkest {
+  background-color: #981b1e;
+}
+.background-tertiary-dark {
+  background-color: #cd2026;
+}
+.background-tertiary-light {
+  background-color: #e59393;
+}
+.background-tertiary-lightest {
+  background-color: #f9dede;
+}
+
 
 /* Structure ****************/
 /* for spec display only ****/
