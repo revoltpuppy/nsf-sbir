@@ -43,7 +43,7 @@
   background-color: #e1f3f8;
 }
 .background-secondary {
-  background-color: #e1f3f8;
+  background-color: #e31c3d;
 }
 .background-secondary-darkest {
   background-color: #981b1e;
@@ -76,4 +76,25 @@
 }
 
 /* Structure ****************/
-/* for dispay purposes only */
+/* for spec display only ****/
+/* Not needed for site ******/
+.palette {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+
+}
+.palette .block {
+  width: 184px;
+  height: 50px;
+  display: block;
+  margin-bottom: 5px;
+}
+.palette li {
+  flex-direction: row;
+  padding-bottom: 15px;
+}
+.palette p {
+  font: 11px/1.5 'Overpass Mono', monospace;
+  margin: 0;
+}
