@@ -64,6 +64,7 @@ p.large, ul.large li {
   line-height: 1.625;
   max-width: 620px;
   margin-bottom: 1.5rem;
+  letter-spacing: -.03em;
 }
 p.medium, ul.medium li {
   font-size: 1.8rem;
@@ -71,6 +72,7 @@ p.medium, ul.medium li {
   line-height: 1.625;
   margin-bottom: 1.5rem;
   max-width: 480px;
+  letter-spacing: -.01em;
 }
 p.small, ul.small li {
   font-size: 1.2rem;
