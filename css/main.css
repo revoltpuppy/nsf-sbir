@@ -211,6 +211,7 @@ footer .col:last-of-type p:first-of-type {
 footer .col:last-of-type .button {
   margin: 0;
   padding: 5px 14px 5px 5px;
+  /*text-align: left;*/
 }
 footer .social-btn,
 footer .social-btn:hover,
