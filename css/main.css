@@ -210,7 +210,7 @@ footer .col:last-of-type p:first-of-type {
 }
 footer .col:last-of-type .button {
   margin: 0;
-  padding: 5px 10px 5px 5px;
+  padding: 5px 14px 5px 5px;
 }
 footer .social-btn,
 footer .social-btn:hover,
@@ -221,9 +221,6 @@ footer .social-btn .fa {
   margin-top: 15px;
   margin-right: 5px;
   padding: 6px 12px;
-  /*border: 1px solid #02BFE7;*/
-  /*font-size: 2rem;*/
-  /*background-color: #FFFFFF;*/
   text-decoration: none;
   border-radius: 50% !important;
   outline: 0 !important;
