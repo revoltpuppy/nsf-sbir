@@ -141,9 +141,12 @@ footer .col p.smallest {
   letter-spacing: .05em;
 }
 a {
-  color: #0071bc;
+  color: #0071bc;  /* Primary */
   text-decoration: none;
   border-bottom: 1px dotted #0071bc;
+}
+.background-light-blue a {
+  color: #205493;  /* Primary darker */
 }
 address {
   font-style: normal;
@@ -333,10 +336,7 @@ footer .social-btn .fa:hover {
   width: 25px;
   font-family: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
 }
-.de-emphasize {
-  font-weight: 300;
-  color: #fff;
-}
+
 
 /* Structure */
 .container,
