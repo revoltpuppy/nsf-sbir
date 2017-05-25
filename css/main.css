@@ -26,8 +26,25 @@ h1 {
   margin: 0;
 }
 h2 {
-  font-weight: 700;
+  /*font-weight: 700;*/
   font-size: 3.6rem;
+  letter-spacing: -.01em;
+  line-height: 1.5;
+}
+h2.alt {
+  font-weight: 500;
+}
+h2.small {
+  font-size: 2.6rem;
+  letter-spacing: normal;
+}
+h2.smaller {
+  font-size: 2rem;
+  letter-spacing: normal;
+}
+h2.smallest {
+  font-size: 1.6rem;
+  letter-spacing: normal;
 }
 h3 {
   font-size: 2rem;
@@ -41,6 +58,9 @@ h4 {
 }
 h5 {
   font-size: 1.6rem;
+}
+h5.alt {
+  font-weight: 500;
 }
 h2.bar, h3.bar, h4.bar, h5.bar {
   position: relative;
@@ -67,7 +87,7 @@ p.alt {
 }
 p.large, ul.large li {
   font-size: 2.4rem;
-  line-height: 1.625;
+  line-height: 1.5;
   max-width: 620px;
   margin-bottom: 1.5rem;
   letter-spacing: -.03em;
@@ -133,7 +153,7 @@ address {
   font-size: 1.6rem;
   line-height: 3rem;
 }
-.sidebar h3 {
+.sidebar h3, .sidebar h2.small {
   font-size: 1.6rem;
   color: #2C3E50;
 }
@@ -276,7 +296,8 @@ footer .social-btn .fa:hover {
 .col .button:hover {
   background-color: #FFFFFF;
 }
-.program-info p {
+.program-info p,
+.program-info ul {
   margin: 0 auto;
   max-width: 620px;
 }
@@ -342,15 +363,23 @@ section {
 section.three-column,
 footer.three-column {
   display: flex;
-  /*padding-top: 50px;*/
-  /*padding-bottom: 50px;*/
   overflow: hidden;
   height: auto;
 }
 section.three-column .col,
 footer.three-column .col {
   width: 300px;
-  flex-direction: column;
+  flex-direction: row;
+}
+section.three-column .col-one-third {
+  width: 300px;
+  padding-right: 20px;
+  flex-direction: row;
+}
+section.three-column .col-two-thirds {
+  width: 500px;
+  padding: 0 20px;
+  flex-direction: row;
 }
 footer.three-column .col-half {
   width: 150px;
@@ -365,7 +394,6 @@ section.two-column {
 }
 section.two-column .col {
   width: calc(50%);
-  /*min-width: 300px;*/
   flex-flow: column;
 }
 section.two-column .col:not(:last-child) {
