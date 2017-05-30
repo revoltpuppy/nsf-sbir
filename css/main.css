@@ -25,6 +25,7 @@ h1 {
   letter-spacing: -.015em;
   margin: 0;
 }
+h1.small,
 h2 {
   /*font-weight: 700;*/
   font-size: 3.6rem;
@@ -341,13 +342,13 @@ footer .social-btn .fa:hover {
 /* Structure */
 .container,
 header,
-section {
+#home section {
   max-width: 960px;
   margin: 0 auto;
   box-sizing: border-box;
 }
 .container,
-section {
+#home section {
   padding-left: 20px;
   padding-right: 20px;
 }
