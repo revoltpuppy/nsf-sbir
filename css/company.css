@@ -1,0 +1,3 @@
+.col-two-thirds p:not(.subhead) {
+  margin-bottom: 1.5rem;
+}
