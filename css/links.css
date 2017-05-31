@@ -23,8 +23,12 @@ a[href *='.xls']:not(.button) {
   background: url(../images/file-excel.svg) right center no-repeat;
   background-size: 16px auto;
 }
-a[href ^="http://"],[href ^="https://"][href *='nsf.gov']:not(.button) {
+a[href ^="http://"],[href ^="https://"]:not(.button) {
   padding-right: 18px;
   background: url(../images/website.svg) right center no-repeat;
   background-size: 12px auto;
+}
+a[href *='nsf.gov'] { /* may want to handle exception in Sass */
+  padding-right: 0;
+  background: none;
 }
