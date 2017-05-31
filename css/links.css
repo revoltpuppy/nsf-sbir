@@ -3,23 +3,23 @@ a[href^="mailto"]:not(.button) {
   background: url(../images/email.svg) right center no-repeat;
   background-size: 16px auto;
 }
-a[href $='.doc']:not(.button) {
-  padding-right: 25px;
+a[href *='.doc']:not(.button) {
+  padding-right: 20px;
   background: url(../images/file-word.svg) right center no-repeat;
   background-size: 16px auto;
 }
 a[href $='.pdf']:not(.button) {
-  padding-right: 25px;
+  padding-right: 20px;
   background: url(../images/file-acrobat.svg) right center no-repeat;
   background-size: 16px auto;
 }
 a[href $='.ppt']:not(.button) {
-  padding-right: 25px;
+  padding-right: 20px;
   background: url(../images/file-powerpoint.svg) right center no-repeat;
   background-size: 16px auto;
 }
-a[href $='.xls']:not(.button) {
-  padding-right: 25px;
+a[href *='.xls']:not(.button) {
+  padding-right: 20px;
   background: url(../images/file-excel.svg) right center no-repeat;
   background-size: 16px auto;
 }
