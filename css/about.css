@@ -1,0 +1,11 @@
+.background-light-blue a {
+  color: #046B99;   /* primary-alt-darkest */
+}
+p.medium {
+  max-width: 66%;
+}
+p.sidebar {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}

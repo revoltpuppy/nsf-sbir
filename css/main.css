@@ -439,6 +439,9 @@ section.four-column {
 .pad-vtop-100 {
   padding-top: 100px;
 }
+.pad-vbottom-10 {
+  padding-bottom: 10px;
+}
 .pad-vbottom-20 {
   padding-bottom: 20px;
 }
