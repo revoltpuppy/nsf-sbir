@@ -25,10 +25,22 @@ section.four-column .col a {
   overflow: hidden;
   width: calc(100% - 10px);
 }
-.col-three-fourths ul {
+.col-three-fourths ul:not(.subtopics) {
   display: block;
   overflow: hidden;
   height: auto;
+}
+.col-three-fourths ul.subtopics {
+  display: block;
+}
+.subtopic-subhead {
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: inline-block;
+}
+.col-three-fourths .subtopic-subhead:after {
+  content: ":";
+  padding-right: 5px;
 }
 .col-three-fourths ul:not(.subtopics) li a {
   border-bottom: none;
@@ -45,6 +57,8 @@ section.four-column .col a {
   color: #323A45;   /* gray dark */
   display: inline-block;
   font-size: 1.1rem;
+  margin-bottom: 2px;
+  /*border: 1px solid #f00;*/
 }
 .col-three-fourths ul.subtopics li:not(:last-child) {
   position: relative;
