@@ -16,8 +16,8 @@ section.four-column .col {
 }
 section.four-column .col a {
   border-bottom: none;
-  border-top: 1px dotted #112E51;
-  color: #112E51;
+  border-top: 1px dotted #112E51;   /* base */
+  color: #112E51;   /* base */
   display: block;
   font-size: 1.3rem;
   height: 4rem;
@@ -25,10 +25,15 @@ section.four-column .col a {
   overflow: hidden;
   width: calc(100% - 10px);
 }
+.col-three-fourths ul {
+  display: block;
+  overflow: hidden;
+  height: auto;
+}
 .col-three-fourths ul:not(.subtopics) li a {
   border-bottom: none;
-  border-top: 1px dotted #112E51;
-  color: #112E51;
+  border-top: 1px dotted #112E51;  /* base */
+  color: #112E51;   /* base */
   display: block;
   font-size: 1.3rem;
   height: 4rem;
@@ -37,11 +42,30 @@ section.four-column .col a {
   width: calc(100% - 10px);
 }
 .col-three-fourths ul.subtopics li {
+  color: #323A45;   /* gray dark */
   display: inline-block;
+  font-size: 1.1rem;
+}
+.col-three-fourths ul.subtopics li:not(:last-child) {
+  position: relative;
+  padding-right: 3rem;
+}
+.col-three-fourths ul.subtopics li:not(:last-child)::after {
+  content: "";
+  background-color: #AEB0B5;    /* gray light */
+  position: absolute;
+  bottom: 8px;
+  right: .3rem;
+  height: 1px;
+  width: 2rem;
+}
+.col-three-fourths ul.subtopics li:last-child::after {
+  content: ".";
+  margin-left: -2px;
 }
 section.four-column .col a:hover,
 .col-three-fourths li a:hover {
-  border-top: 1px solid #112E51;
+  border-top: 1px solid #112E51;    /* base */
 }
 section.two-column {
   display: block;
@@ -67,7 +91,7 @@ nav.col p a {
   font-size: 1.3rem;
   display: block;
   padding-bottom: 5px;
-  color: #112E51;
+  color: #112E51;   /* base */
   width: calc(100% - 10px);
 }
 nav.col p a::after {
@@ -79,7 +103,7 @@ nav.col p a::after {
   color: #02BFE7;
 }
 nav.col p a:hover {
-  border-bottom: 1px dotted #112E51;
+  border-bottom: 1px dotted #112E51;    /* base */
 }
 @media (min-width: 481px) {
   section.four-column .col {
