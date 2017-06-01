@@ -98,7 +98,7 @@ nav.col p a {
   font-size: 1.3rem;
   display: block;
   padding-bottom: 5px;
-  color: #046B99;   /* primary alt darkest */
+  color: #112E51;   /* primary darkest */
   width: calc(100% - 10px);
 }
 nav.col p a::after {
@@ -110,7 +110,7 @@ nav.col p a::after {
   color: #02BFE7;
 }
 nav.col p a:hover {
-  border-bottom: 1px dotted #046B99;    /* primary alt darkest */
+  border-bottom: 1px dotted #112E51;    /* primary darkest */
 }
 .pgm-director ul li {
   list-style-type: none;
