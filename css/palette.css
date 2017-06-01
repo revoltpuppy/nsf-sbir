@@ -63,6 +63,12 @@
 .background-light-blue {
   background-color: #E0F3F8;
 }
+.background-neutral {
+  background-color: #f2f5f6;
+}
+.background-lighter-neutral {
+  background-color: #f9fbfb;
+}
 .background-gray-warm-light {
   background-color: #E4E2E0;
 }
