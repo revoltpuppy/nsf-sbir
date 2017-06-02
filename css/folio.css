@@ -24,6 +24,9 @@ section.four-column .col a {
   overflow: hidden;
   width: calc(100% - 10px);
 }
+section.four-column .col a:hover {
+  border-top-style: solid;
+}
 .col-three-fourths ul:not(.subtopics) {
   display: block;
   overflow: hidden;
@@ -53,6 +56,9 @@ section.four-column .col a {
   padding-top: 5px;
   overflow: hidden;
   width: calc(100% - 10px);
+}
+.col-three-fourths ul:not(.subtopics) li a:hover {
+  border-top-style: solid;
 }
 .col-three-fourths ul.subtopics li {
   color: #323A45;   /* gray dark */
