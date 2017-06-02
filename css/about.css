@@ -9,6 +9,10 @@
 .background-primary-alt-light a {
   color: #205493    /* primary-darker */
 }
+.background-light-blue a:hover,
+.background-primary-alt-light a:hover {
+  border-bottom-style: solid;
+}
 .background-primary-alt-light p.medium {
   font-weight: 600;
   line-height: 1.75;
