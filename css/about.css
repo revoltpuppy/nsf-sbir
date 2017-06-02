@@ -1,3 +1,8 @@
+#about {
+  /*background: url(../images/RoboticPrinterv1.jpg) cover fixed;*/
+  background: #AAAAAA url('../images/RoboticPrinterv1.jpg') center top no-repeat fixed;
+
+}
 .background-light-blue a {
   color: #046B99;   /* primary-alt-darkest */
 }
@@ -8,6 +13,9 @@ p.sidebar {
   font-size: 2rem;
   font-weight: 700;
   line-height: 1.5;
+}
+.lede {
+  margin-bottom: 480px;
 }
 .lede section ul {
 }
