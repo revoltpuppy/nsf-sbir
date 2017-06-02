@@ -9,3 +9,39 @@ p.sidebar {
   font-weight: 700;
   line-height: 1.5;
 }
+.lede section ul {
+}
+.lede section ul li, .lede section:last-of-type p {
+  font-size: 1.3rem;
+}
+@media (min-width: 481) {
+  .lede section ul {
+    list-style: none;
+    display: flex;
+  }
+  .lede section ul li {
+    flex-direction: column;
+    width: calc(50% - 20px;);
+    padding-right: 20px;
+    word-wrap: break-word;
+  }
+  .lede section ul li, .lede section:last-of-type p {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 600px) {
+
+}
+@media (min-width: 960px) {
+  .lede section ul {
+    list-style: none;
+    display: flex;
+  }
+  .lede section ul li {
+    flex-direction: column;
+    width: calc(25% - 20px;);
+    padding-right: 20px;*/
+    /*word-wrap: break-word;
+  }
+
+}
