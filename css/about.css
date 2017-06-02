@@ -6,6 +6,13 @@
 .background-light-blue a {
   color: #046B99;   /* primary-alt-darkest */
 }
+.background-primary-alt-light a {
+  color: #205493    /* primary-darker */
+}
+.background-primary-alt-light p.medium {
+  font-weight: 600;
+  line-height: 1.5;
+}
 p.medium {
   max-width: 66%;
 }
