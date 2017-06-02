@@ -10,8 +10,8 @@
   color: #205493    /* primary-darker */
 }
 .background-primary-alt-light p.medium {
-  /*font-weight: 600;*/
-  /*line-height: 1.5;*/
+  font-weight: 600;
+  line-height: 1.75;
 }
 p.medium {
   max-width: 66%;
