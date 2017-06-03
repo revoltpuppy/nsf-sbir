@@ -25,11 +25,32 @@ a[href *='.xls']:not(.button) {
 }
 a[href^="http://"],[href^="https://"]:not(.button) {
   padding-right: 18px;
-  background: url(../images/website.svg) right center no-repeat;
-  background-size: 12px auto;
+  background: url(../images/external-link.svg) right center no-repeat;
+  background-size: 16px auto;
 }
-/* may want to handle exception in Sass */
-a[href*="nsf.gov"],[href*="twitter.com"],[href*="linkedin.com"],[href*="angel.co"],[href*="medium.com"],[href*="crunchbase.com"],[href*="youtube.com"] {
-  padding-right: 0 !important;
+/* such hacks, much PITA */
+/* may want to handle exceptions in Sass */
+a[href*="https://www.nsf.gov"]:not(.button) {
+  padding-right: 0;
+  background: none !important;
+}
+a[href^="https://twitter.com"]:not(.button) {
+  padding-right: 0;
+  background: none !important;
+}
+a[href*="youtube.com"]:not(.button) {
+  padding-right: 0;
+  background: none !important;
+}
+a[href*="angel.co"]:not(.button) {
+  padding-right: 0;
+  background: none !important;
+}
+a[href*="medium.com"]:not(.button) {
+  padding-right: 0;
+  background: none !important;
+}
+a[href*="linkedin.com"]:not(.button) {
+  padding-right: 0;
   background: none !important;
 }
