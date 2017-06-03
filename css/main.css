@@ -345,6 +345,10 @@ footer .social-btn .fa:hover {
 
 
 /* Structure */
+.container {
+  height: auto;
+  overflow: hidden;
+}
 .container,
 header,
 #home section {

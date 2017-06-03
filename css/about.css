@@ -1,7 +1,32 @@
 #about {
-  /*background: url(../images/RoboticPrinterv1.jpg) cover fixed;*/
   background: #AAAAAA url('../images/RoboticPrinterv1.jpg') center top no-repeat fixed;
-
+}
+#about .two-column p {
+  font-size: 1.4rem;
+  line-height: 1.625;
+  margin-bottom: 1.4rem;
+  padding: 0;
+  /*max-width: 480px;*/
+}
+#about .two-column ul li {
+  margin: 0 0 0 16px;;
+  padding: 0;
+}
+#about .two-column h4 {
+  min-height: 6rem;
+}
+/*#about .container {
+  height: auto;
+  overflow: hidden;
+}*/
+#about .caption {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 20px;
+  margin: 0;
+  float: right;
+}
+.background-diagonal-tile {
+  background: transparent url('../images/tile.gif') repeat;
 }
 .background-light-blue a {
   color: #046B99;   /* primary-alt-darkest */
@@ -15,7 +40,7 @@
 }
 .background-primary-alt-light p.medium {
   font-weight: 600;
-  line-height: 1.75;
+  /*line-height: 1.75;*/
 }
 p.medium {
   max-width: 66%;
@@ -26,12 +51,18 @@ p.sidebar {
   line-height: 1.5;
 }
 .lede {
-  margin-bottom: 480px;
+  margin-bottom: 300px;
 }
 .lede section ul {
 }
 .lede section ul li, .lede section:last-of-type p {
   font-size: 1.3rem;
+}
+.container-half {
+  max-width: 480px;
+  padding: 0;
+  overflow: hidden;
+  display: block;
 }
 @media (min-width: 481) {
   .lede section ul {
