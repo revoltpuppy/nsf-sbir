@@ -76,7 +76,7 @@ h2.bar:before, h3.bar:before, h4.bar:before, h5.bar:before {
   background-color: #000;
   position: absolute;
   /*top: -15px;*/
-  top: -10px;
+  top: -15px;
   left: 0;
   height: 2px;
   width: 60px;
