@@ -75,7 +75,8 @@ h2.bar:before, h3.bar:before, h4.bar:before, h5.bar:before {
   content: "";
   background-color: #000;
   position: absolute;
-  top: -15px;
+  /*top: -15px;*/
+  top: -10px;
   left: 0;
   height: 2px;
   width: 60px;
@@ -345,10 +346,6 @@ footer .social-btn .fa:hover {
 
 
 /* Structure */
-.container {
-  height: auto;
-  overflow: hidden;
-}
 .container,
 header,
 #home section {

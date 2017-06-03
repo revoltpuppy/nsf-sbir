@@ -6,7 +6,6 @@
   line-height: 1.625;
   margin-bottom: 1.4rem;
   padding: 0;
-  width: calc(100% - 20px);
   /*max-width: 480px;*/
 }
 #about .two-column ul li {
