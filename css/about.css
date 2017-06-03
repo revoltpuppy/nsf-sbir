@@ -39,7 +39,7 @@
   border-bottom-style: solid;
 }
 .background-primary-alt-light p.medium {
-  font-weight: 600;
+  /*font-weight: 600;*/
   /*line-height: 1.75;*/
 }
 p.medium {
