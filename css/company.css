@@ -1,3 +1,13 @@
 .col-two-thirds p:not(.subhead) {
   margin-bottom: 1.5rem;
 }
+.supplement ul li a {
+  border-bottom: none;
+}
+.supplement .fa {
+  padding: 0 5px;
+}
+.supplement ul li {
+  margin-bottom: 0;
+  display: inline-block;
+}
