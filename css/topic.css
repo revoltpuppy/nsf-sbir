@@ -11,15 +11,16 @@
   display: flex;
   height: auto;
   overflow: hidden;
-  margin-bottom: 80px;
+  /*margin-bottom: 80px;*/
 }
 #topic .nav a .fa.fa-chevron-circle-down {
   font-size: 3rem;
   line-height: 1;
   flex-direction: column;
   /*color: #FFF039;*/
+  width: 40px;
   color: #FFF;
-  padding-right: 10px;
+  /*padding-right: 10px;*/
 }
 #topic .nav a {
   border: none;
@@ -28,18 +29,49 @@
   font-size: 2.4rem;
   font-weight: 600;
   background-color: rgba(255,240,57,.8);
-  /*background-color: rgba(255,255,255,.8);*/
-  /*width: calc(75% - 60px);*/
   flex-wrap: wrap;
   line-height: 1.2;
   display: inline;
   flex-direction: column;
-  /*position: relative;*/
-  /*margin-left: 4rem;*/
 }
 #topic .nav h1 a {
   border: none;
   color: #000;
+  padding: 0 10px;
+  display: block;
+}
+.menu-topics {
+  margin-left: 40px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.menu-topics.active {
+  display: block;
+}
+.menu-topics.inactive {
+  display: none;
+}
+.menu-topics ul li {
+  margin-right: -20px;
+}
+.menu-topics ul li:not(:last-child)::after {
+  content: "";
+  background-color: #AEB0B5;    /* gray light */
+  display:inline-block;
+  width:20px;
+  height:1px;
+  margin-bottom:5px;
+}
+.menu-topics li a {
+  padding: 5px 0;
+  border-bottom: 1px dotted transparent;
+  display:inline-block;
+}
+.menu-topics li a.active {
+  background-color: #FFFAC3;    /* yellow-lightest */
+}
+.menu-topics li a:hover {
+  border-bottom-color: #112e51;
 }
 p.caption {
   background-color: rgba(255, 255, 255, 0.85);
