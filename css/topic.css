@@ -1,0 +1,49 @@
+#topic {
+  background-image: url('../images/altaeros_2013_003_bw.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #bbb;
+}
+#topic .container-fluid:nth-of-type(2) {
+  min-height: 15rem;
+}
+#topic .nav {
+  display: flex;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+#topic .nav a .fa.fa-chevron-circle-down {
+  font-size: 3rem;
+  line-height: 1;
+  flex-direction: column;
+  /*color: #FFF039;*/
+  color: #FFF;
+  padding-right: 10px;
+}
+#topic .nav a {
+  border: none;
+}
+#topic .nav h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  background-color: rgba(255,240,57,.8);
+  /*background-color: rgba(255,255,255,.8);*/
+  /*width: calc(75% - 60px);*/
+  flex-wrap: wrap;
+  line-height: 1.2;
+  display: inline;
+  flex-direction: column;
+  /*position: relative;*/
+  /*margin-left: 4rem;*/
+}
+#topic .nav h1 a {
+  border: none;
+  color: #000;
+}
+p.caption {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 5px 20px;
+  margin: 0;
+  float: right;
+}

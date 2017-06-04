@@ -105,7 +105,7 @@ p.medium, ul.medium li {
   line-height: 1.625;
   margin-bottom: 1.5rem;
   max-width: 480px;
-  letter-spacing: -.01em;
+  letter-spacing: -.015em;
 }
 p.small,
 ul.small li,
