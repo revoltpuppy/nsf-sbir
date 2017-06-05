@@ -79,3 +79,18 @@ p.caption {
   margin: 0;
   float: right;
 }
+img.pgm-director {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 5rem;
+  /*border: 1px solid #212121;  */
+  margin-bottom: 10px;
+}
+section.three-column .col-two-thirds {
+  width: 100%;
+}
+section.three-column .col-two-thirds p {
+  max-width: 100%;
+}
+
+/* structural */
