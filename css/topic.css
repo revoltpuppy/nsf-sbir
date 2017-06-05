@@ -13,7 +13,7 @@
   overflow: hidden;
   /*margin-bottom: 80px;*/
 }
-#topic .nav a .fa.fa-chevron-circle-down {
+#topic .nav a .fa {
   font-size: 3rem;
   line-height: 1;
   flex-direction: column;
