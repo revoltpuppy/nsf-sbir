@@ -344,6 +344,19 @@ footer .social-btn .fa:hover {
   font-family: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+/************************************************/
+/* classes for handling solicitation state      */
+/************************************************/
+
+.solicitation-active {    /* used on About page */
+  display: block;
+  visibility: visible;
+}
+.solicitation-expired {   /* used on About page */
+  display: none;
+  visibility: hidden;
+}
+
 
 /* Structure */
 .container,
