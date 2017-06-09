@@ -1,0 +1,17 @@
+h2.larger {
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 1;
+  /*text-transform: uppercase;*/
+  letter-spacing: -.015em;
+  margin: 0;
+}
+h2 {
+  line-height: 1.15;
+  max-width:60rem;
+}
+.background-tinted {
+  background: linear-gradient(rgba(202, 218, 71, 0.5), rgba(202, 218, 71, 0.5)), url(../images/photos/biomason/BIOLITH_BIOMASON.jpg);
+  filter: gray;
+  background-size: cover;
+}
