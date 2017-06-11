@@ -95,7 +95,7 @@ p.alt {
 p.large, ul.large li {
   font-size: 2.4rem;
   line-height: 1.5;
-  max-width: 620px;
+  max-width: 80rem;
   margin-bottom: 1.5rem;
   letter-spacing: -.03em;
 }
@@ -104,8 +104,8 @@ p.medium, ul.medium li {
   font-weight: 400;
   line-height: 1.625;
   margin-bottom: 1.5rem;
-  max-width: 480px;
-  letter-spacing: -.01em;
+  max-width: 64rem;
+  letter-spacing: -.015em;
 }
 p.small,
 ul.small li,
@@ -342,6 +342,19 @@ footer .social-btn .fa:hover {
   display: inline-block;
   width: 25px;
   font-family: 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/************************************************/
+/* classes for handling solicitation state      */
+/************************************************/
+
+.solicitation-active {    /* used on About page */
+  display: block;
+  visibility: visible;
+}
+.solicitation-expired {   /* used on About page */
+  display: none;
+  visibility: hidden;
 }
 
 

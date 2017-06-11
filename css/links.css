@@ -28,6 +28,7 @@ a[href^="http://"],[href^="https://"]:not(.button) {
   background: url(../images/external-link.svg) right center no-repeat;
   background-size: 16px auto;
 }
+
 /* such hacks, much PITA */
 /* may want to handle exceptions in Sass */
 a[href*="https://www.nsf.gov"]:not(.button) {
@@ -46,7 +47,7 @@ a[href*="angel.co"]:not(.button) {
   padding-right: 0;
   background: none !important;
 }
-a[href*="medium.com"]:not(.button) {
+a[href^="https://medium.com"]:not(.button) {
   padding-right: 0;
   background: none !important;
 }
