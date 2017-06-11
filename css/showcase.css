@@ -98,6 +98,8 @@ a.button[href^="https://medium.com/"] {
   .background-biomason {
     background: url(../images/showcase/biomason-bw.png) center center no-repeat;
     background-size: cover;
+    background-color: #9BDAF1;
+    background-blend-mode: multiply;
   }
   #showcase .two-column {
     padding: 0;
