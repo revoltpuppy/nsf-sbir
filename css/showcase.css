@@ -1,17 +1,84 @@
-h2.larger {
+#showcase {
+  background-image: url(../images/biomason-bw.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
+#showcase .lede {
+  margin-bottom: 10rem;
+}
+#showcase .lede h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+h1.inverse {
+  color: #FFFFFF;
+}
+h2.inverse, p.inverse {
+  color: #9BDAF1;
+}
+#showcase .lede h2.larger {
   font-size: 5rem;
   font-weight: 800;
   line-height: 1;
-  /*text-transform: uppercase;*/
   letter-spacing: -.015em;
   margin: 0;
 }
+
 h2 {
-  line-height: 1.15;
-  max-width:60rem;
+  line-height: 1.1;
+  max-width: 55rem;
 }
-.background-tinted {
-  background: linear-gradient(rgba(202, 218, 71, 0.5), rgba(202, 218, 71, 0.5)), url(../images/photos/biomason/BIOLITH_BIOMASON.jpg);
-  filter: gray;
-  background-size: cover;
+
+a.button[href^="https://medium.com/"] {
+  padding: 10px 20px 10px 40px;
+  margin: 20px 0;
+  border: 1px solid #323a45;
+  display: inline-block;
+  background: #FFFFFF url(../images/icons/medium.svg) 15px center no-repeat;
+  background-size: 20px;
+}
+
+.background-OT {
+  background:
+    url(../images/icons/OT-red.svg) 500px 100px,
+    url(../images/icons/OT-yellow.svg) 510px 90px;
+  background-repeat: no-repeat;
+  background-size: 300px 200px, 300px 200px;
+  padding-top: 100px;
+  /*background-position: right top;*/
+
+}
+
+
+@media (min-width: 960px) {
+  .background-OT {
+    /*background-color: #02BFE7;
+    background:
+      transparent url(../images/icons/OT-red.svg) 600px 100px,
+      transparent url(../images/icons/OT-yellow.svg) 610px 90px;
+    background-repeat: no-repeat;
+    background-size: 600px 400px, 600px 400px;*/
+    padding-top: 150px;
+    background: #E0F3F8 url(../images/icons/OT.svg) 600px -50px no-repeat;
+    background-size: 50% 50%;
+
+  }
+  #showcase .two-column {
+    padding: 0;
+    display: flex;
+  }
+  #showcase .two-column .one-half {
+    width: calc(50%);
+    flex-flow: column;
+    height: auto;
+    overflow: hidden;
+    padding: 30px 50px;
+  }
+  #showcase .two-column .one-half p {
+    padding-right: 0;
+    font-size: 1.4rem;
+    line-height: 1.625;
+  }
+
 }
