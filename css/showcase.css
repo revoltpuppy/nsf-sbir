@@ -71,18 +71,29 @@ a.button[href^="https://medium.com/"] {
 }
 
 @media (min-width: 960px) {
+  .background-CT {
+    background:
+      url(../images/icons/CT.svg) 40px 65px no-repeat,
+      url(../images/icons/CT-white.svg) 35px 70px no-repeat;
+    background-size: 75%, 75%;
+  }
   .background-MI {
     background:
-      url(../images/icons/MI.svg) 35px 10px no-repeat,
-      url(../images/icons/MI-white.svg) 30px 20px no-repeat;
+      url(../images/icons/MI.svg) 75px 50px no-repeat,
+      url(../images/icons/MI-white.svg) 70px 60px no-repeat;
     background-size: 80%, 80%;
   }
   .background-OT {
-    /*padding-top: 150px;*/
     background:
-      url(../images/icons/OT.svg) 60px 60px no-repeat,
-      url(../images/icons/OT-white.svg) 65px 68px no-repeat;
-    background-size: 50%, 50%;
+      url(../images/icons/OT.svg) 100px 100px no-repeat,
+      url(../images/icons/OT-white.svg) 105px 108px no-repeat;
+    background-size: 55%, 55%;
+  }
+  .background-SP {
+    background:
+      url(../images/icons/SP.svg) 40px 60px no-repeat,
+      url(../images/icons/SP-white.svg) 35px 65px no-repeat;
+    background-size: 75%, 75%;
   }
   .background-biomason {
     background: url(../images/showcase/biomason-bw.png) center center no-repeat;
