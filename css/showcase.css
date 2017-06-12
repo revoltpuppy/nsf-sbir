@@ -4,7 +4,8 @@
   background-size: cover;
 }*/
 #showcase .lede {
-  padding-bottom: 15rem;
+  padding-bottom: 10rem;
+  /*border: 1px solid #f00;*/
 }
 #showcase .lede h1 {
   font-size: 3rem;
