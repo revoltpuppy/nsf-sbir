@@ -72,6 +72,12 @@
 .background-gray-warm-light {
   background-color: #E4E2E0;
 }
+.background-light-warm {
+  background-color: #FFFEF9;
+}
+.background-gray-cool-light {
+  background-color: #CCEEFF;
+}
 /* Tertiary **********/
 .background-tertiary {
   background-color: #e31c3d;

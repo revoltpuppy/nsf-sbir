@@ -4,21 +4,15 @@
   background-size: cover;
 }*/
 #showcase .lede {
-  /*margin-bottom: 10rem;*/
+  padding-bottom: 15rem;
 }
 #showcase .lede h1 {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 4rem;
 }
-h1.inverse {
-  color: #FFFFFF;
-}
-h2.inverse, p.inverse {
-  color: #9BDAF1;
-}
 #showcase .lede h2.larger {
-  font-size: 5rem;
+  font-size: 7.2rem;
   font-weight: 800;
   line-height: 1;
   letter-spacing: -.015em;
@@ -71,6 +65,9 @@ a.button[href^="https://medium.com/"] {
 }
 
 @media (min-width: 960px) {
+  #showcase section.container.two-column {
+    border-top: 1px solid #AABBBB;
+  }
   .background-CT {
     background:
       url(../images/icons/CT.svg) 40px 65px no-repeat,
@@ -97,6 +94,12 @@ a.button[href^="https://medium.com/"] {
   }
   .background-biomason {
     background: url(../images/showcase/biomason-bw.png) center center no-repeat;
+    background-size: cover;
+    background-color: #9bdaf1;  /* primary-alt-light */
+    background-blend-mode: multiply;
+  }
+  .background-kepley {
+    background: url(../images/showcase/kepley-bw.png) center center no-repeat;
     background-size: cover;
     background-color: #9BDAF1;
     background-blend-mode: multiply;
