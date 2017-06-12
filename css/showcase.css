@@ -1,10 +1,10 @@
-#showcase {
+/*#showcase {
   background-image: url(../images/biomason-bw.png);
   background-attachment: fixed;
   background-size: cover;
-}
+}*/
 #showcase .lede {
-  margin-bottom: 10rem;
+  /*margin-bottom: 10rem;*/
 }
 #showcase .lede h1 {
   font-size: 3rem;
@@ -39,30 +39,67 @@ a.button[href^="https://medium.com/"] {
   background-size: 20px;
 }
 
-.background-OT {
-  background:
-    url(../images/icons/OT-red.svg) 500px 100px,
-    url(../images/icons/OT-yellow.svg) 510px 90px;
-  background-repeat: no-repeat;
-  background-size: 300px 200px, 300px 200px;
-  padding-top: 100px;
-  /*background-position: right top;*/
+
+#showcase .two-column {
+  padding: 0;
+  display: block;
+}
+#showcase .two-column .one-half {
+  width: 100%;
+  display: block;
+  height: auto;
+  overflow: hidden;
+  /*padding: 40px 20px 20px 20px;*/
+  /*border: 1px solid #f00;*/
+}
+#showcase .two-column .one-half h2,
+#showcase .two-column .one-half p {
+  width: calc(100% - 40px);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#showcase .two-column .one-half p {
+  font-size: 1.4rem;
+  line-height: 1.625;
+}
+#showcase .two-column .one-half h2 {
+  padding-top: 40px;
+}
+
+@media (min-width: 600px) and (max-width: 959px) {
 
 }
 
-
 @media (min-width: 960px) {
-  .background-OT {
-    /*background-color: #02BFE7;
+  .background-CT {
     background:
-      transparent url(../images/icons/OT-red.svg) 600px 100px,
-      transparent url(../images/icons/OT-yellow.svg) 610px 90px;
-    background-repeat: no-repeat;
-    background-size: 600px 400px, 600px 400px;*/
-    padding-top: 150px;
-    background: #E0F3F8 url(../images/icons/OT.svg) 600px -50px no-repeat;
-    background-size: 50% 50%;
-
+      url(../images/icons/CT.svg) 40px 65px no-repeat,
+      url(../images/icons/CT-white.svg) 35px 70px no-repeat;
+    background-size: 75%, 75%;
+  }
+  .background-MI {
+    background:
+      url(../images/icons/MI.svg) 75px 50px no-repeat,
+      url(../images/icons/MI-white.svg) 70px 60px no-repeat;
+    background-size: 80%, 80%;
+  }
+  .background-OT {
+    background:
+      url(../images/icons/OT.svg) 100px 100px no-repeat,
+      url(../images/icons/OT-white.svg) 105px 108px no-repeat;
+    background-size: 55%, 55%;
+  }
+  .background-SP {
+    background:
+      url(../images/icons/SP.svg) 40px 60px no-repeat,
+      url(../images/icons/SP-white.svg) 35px 65px no-repeat;
+    background-size: 75%, 75%;
+  }
+  .background-biomason {
+    background: url(../images/showcase/biomason-bw.png) center center no-repeat;
+    background-size: cover;
+    background-color: #9BDAF1;
+    background-blend-mode: multiply;
   }
   #showcase .two-column {
     padding: 0;
@@ -73,12 +110,18 @@ a.button[href^="https://medium.com/"] {
     flex-flow: column;
     height: auto;
     overflow: hidden;
-    padding: 30px 50px;
+    padding: 100px 20px 60px 20px;
+    /*padding-top: 100px;*/
+    /*padding-bottom: 60px;*/
   }
+  #showcase .two-column .one-half h2,
   #showcase .two-column .one-half p {
+    /*padding-right: 0;*/
+    /*font-size: 1.4rem;
+    line-height: 1.625;*/
+    width: 100%;
+    padding-left: 0;
     padding-right: 0;
-    font-size: 1.4rem;
-    line-height: 1.625;
   }
 
 }
