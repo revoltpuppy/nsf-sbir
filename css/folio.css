@@ -177,7 +177,7 @@ p.line-length-limit {
   padding-bottom: 5px;
   padding-left: 32px;
   margin-left: -32px;
-  width: 41.5rem;
+  width: 300px;
   color: #212121;
 }
 #search .btn.btn-default {
@@ -235,6 +235,9 @@ $large-screen:  1201px !default;
     align-self: flex-end;
     margin-left: auto;
     flex-direction: row-reverse;
+  }
+  #search input.form-control {
+    width: 41.5rem;
   }
 }
 @media (min-width: 960px) {
