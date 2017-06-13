@@ -134,9 +134,44 @@ nav.col p a:hover {
   width: 20px;
   display: inline-block;
 }
-/*section:last-of-type div:last-of-type {
-  margin-top: 50px;
-}*/
+p.line-length-limit {
+  max-width: 60rem;
+}
+.search-awardees {
+  display: block;
+}
+#search {
+  /*align-self: flex-end;
+  margin-left: auto;
+  flex-direction: row-reverse;*/
+}
+#search label {
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.625;
+  display: block;
+  padding: 2px 0;
+  margin-left: 32px;
+}
+#search input.form-control {
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: #F5FBFC;
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.625;
+  width: 30rem;
+  color: #212121;
+}
+#search .btn.btn-default {
+  background-color: #F5FBFC;
+  border: none;
+  font-size: 1.8rem;
+  line-height: 1.625;
+}
+
+
 /***********************************/
 /* media queries *******************/
 /***********************************/
@@ -176,6 +211,14 @@ $large-screen:  1201px !default;
     display: inline-block;
     width: 50%;
   }
+  .search-awardees {
+    display: flex;
+  }
+  #search {
+    align-self: flex-end;
+    margin-left: auto;
+    flex-direction: row-reverse;
+  }
 }
 @media (min-width: 960px) {
   section.four-column .col,
@@ -193,8 +236,5 @@ $large-screen:  1201px !default;
     float: left;
     display: inline-block;
     width: 33%;
-  }
-  .col-three-fourths li a {
-
   }
 }

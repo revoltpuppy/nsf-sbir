@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/folio.css">
     <link rel="stylesheet" href="../css/links.css">
     <script src="https://use.fontawesome.com/b2463aafec.js"></script>
+    <script src="../scripts/awardee-search.js"></script>
   </head>
 
   <body id="">
@@ -23,7 +24,7 @@
             <ul>
               <li><a href="../about/index.html">About</a></li>
               <li><a href="../portfolio/index.html">Portfolio</a></li>
-              <li><a href="../sub/index.html">Current awardees <span class="fa fa-angle-down"></span></a></li>
+              <!-- <li><a href="../sub/index.html">Current awardees <span class="fa fa-angle-down"></span></a></li> -->
               <li><a href="../sub/index.html">Apply for funding</a></li>
             </ul>
           </nav>
@@ -31,10 +32,25 @@
       </div>
     </div>
 
-    <div class="container-fluid pad-vtop-60 pad-vbottom-40 background-light-neutral">
+    <div class="container-fluid pad-vbottom-40 background-light-neutral">
+
+      <div class="container pad-vtop-20 pad-vbottom-20 search-awardees">
+        <form id='search' name="searchForm" method="get" accept-charset="UTF-8" action="https://search.nsf.gov/search">
+          <div class="input-group-sm" id="searchbar">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="submit" name="search"><span class="sr-only">search</span><i class="fa fa-search fa-flip-horizontal" aria-hidden="true"></i></button>
+            </span>
+              <input type="text" class="form-control usagov-search-autocomplete ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" id="QueryText" placeholder="" name="query" title="search">
+              <input id="affiliate" name="affiliate" type="hidden" value="nsf" />
+
+          <label for="Search">Search America's Seed Fund awardees</label>
+          </div><!-- /input-group -->
+        </form>
+      </div>
+
       <div class="container">
         <h1>Portfolio</h1>
-        <p class="medium pad-vtop-40 pad-vbottom-30">
+        <p class="large pad-vtop-40 pad-vbottom-30 line-length-limit">
           Since 1977, we’ve awarded funding for high-risk R&amp;D to more than 11,000 startups and small businesses.
         </p>
       </div>
@@ -107,12 +123,19 @@
         </div>
       </section>
 
+      <section class="container">
+        <p>
+          View our current awardees &mdash; those who are still actively completing the R&amp;D terms of their proposals: <a href="#">current Phase I awardees</a>, <a href="#">current Phase II awardees</a>, and our most <a href="#">recent mm/yy Phase I awardees</a>.
+        </p>
+      </section>
+
       <div class="container pad-vtop-80">
+
         <h2 class="small">We fund varied tech sectors.</h2>
-        <p class="medium pad-vtop-20 pad-vbottom-60">
+        <p class="large pad-vtop-20 pad-vbottom-40 line-length-limit">
           Each year, we fund roughly 400 companies across nearly all technology and market sectors.
         </p>
-        <p class="subhead">
+        <p class="subhead pad-vbottom-20">
           Technology topic areas:
         </p>
 
