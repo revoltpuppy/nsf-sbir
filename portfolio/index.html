@@ -14,13 +14,13 @@
     <script src="../scripts/awardee-search.js"></script>
   </head>
 
-  <body id="">
+  <body id="portfolio">
 
     <div class="container-fluid background-white">
       <div class="container">
         <header>
           <nav>
-            <a href="../index.html"><img src="../images/logo-2c.svg" class="logo"></a>
+            <a href="../index.html"><img src="../images/logo-2c-sbir.svg" class="logo"></a>
             <ul>
               <li><a href="../about/index.html">About</a></li>
               <li><a href="../portfolio/index.html">Portfolio</a></li>
@@ -32,32 +32,33 @@
       </div>
     </div>
 
-    <div class="container-fluid pad-vbottom-40 background-light-neutral">
-
-      <div class="container pad-vtop-20 pad-vbottom-20 search-awardees">
-        <form id='search' name="searchForm" method="get" accept-charset="UTF-8" action="https://search.nsf.gov/search">
-          <div class="input-group-sm" id="searchbar">
-            <span class="input-group-btn">
-              <button class="btn btn-default" type="submit" name="search"><span class="sr-only">search</span><i class="fa fa-search fa-flip-horizontal" aria-hidden="true"></i></button>
-            </span>
-              <input type="text" class="form-control usagov-search-autocomplete ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" id="QueryText" placeholder="" name="query" title="search">
-              <input id="affiliate" name="affiliate" type="hidden" value="nsf" />
-
-          <label for="Search">Search America's Seed Fund awardees</label>
-          </div><!-- /input-group -->
-        </form>
-      </div>
+    <div class="container-fluid pad-vtop-60 pad-vbottom-40 background-light-blue lede">
 
       <div class="container">
         <h1>Portfolio</h1>
-        <p class="large pad-vtop-40 pad-vbottom-30 line-length-limit">
+
+        <div class="pad-vtop-20 pad-vbottom-20">
+          <form id='search' name="searchForm" method="get" accept-charset="UTF-8" action="https://search.nsf.gov/search">
+            <div class="input-group-sm" id="searchbar">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" name="search"><span class="sr-only">search</span><i class="fa fa-search fa-flip-horizontal" aria-hidden="true"></i></button>
+              </span>
+                <input type="text" class="form-control usagov-search-autocomplete ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" id="QueryText" placeholder="" name="query" title="search">
+                <input id="affiliate" name="affiliate" type="hidden" value="nsf" />
+
+            <label for="Search">Search America's Seed Fund awardees</label>
+            </div><!-- /input-group -->
+          </form>
+        </div>
+
+        <p class="large pad-vtop-40 pad-vbottom-60 line-length-limit">
           Since 1977, we’ve awarded funding for high-risk R&amp;D to more than 11,000 startups and small businesses.
         </p>
-      </div>
-    </div>
 
-    <div class="container-fluid background-light-neutral">
-      <section class="container four-column alumni pad-vbottom-40">
+      </div>
+
+
+      <section class="container four-column alumni pad-vtop-20 pad-vbottom-40">
         <p class="subhead-smaller">
           Featured alumni and exits
         </p>
@@ -123,23 +124,33 @@
         </div>
       </section>
 
-      <section class="container">
+
+      <section class="container pad-vtop-40 pad-vbottom-60">
         <p>
-          View our current awardees &mdash; those who are still actively completing the R&amp;D terms of their proposals: <a href="#">current Phase I awardees</a>, <a href="#">current Phase II awardees</a>, and our most <a href="#">recent mm/yy Phase I awardees</a>.
+          <strong>View our current awardees</strong> &mdash; those who are still actively completing the R&amp;D terms of their proposals: <a href="#">current Phase I awardees</a>, <a href="#">current Phase II awardees</a>, and our most <a href="#">recent mm/yy Phase I awardees</a>.
         </p>
       </section>
 
-      <div class="container pad-vtop-80">
+    </div>
 
-        <h2 class="small">We fund varied tech sectors.</h2>
-        <p class="large pad-vtop-20 pad-vbottom-40 line-length-limit">
-          Each year, we fund roughly 400 companies across nearly all technology and market sectors.
-        </p>
-        <p class="subhead pad-vbottom-20">
-          Technology topic areas:
-        </p>
+    <div class="container pad-vbottom-60 details">
+      <p class="small caption">
+        From lab to market: <a href="#">Bolt Threads</a> genetically engineered yeast brew silk proteins that can be spun into fibers.
+      </p>
+    </div>
 
-        <section class="two-column pad-vbottom-120">
+  <div class="container-fluid pad-vtop-80 background-light-neutral">
+    <div class="container">
+
+      <h2 class="small">We fund varied tech sectors.</h2>
+      <p class="large pad-vtop-20 pad-vbottom-40 line-length-limit">
+        Each year, we fund roughly 400 companies across nearly all technology and market sectors.
+      </p>
+      <p class="subhead pad-vbottom-20">
+        Technology topic areas:
+      </p>
+
+      <section class="two-column pad-vbottom-120">
 
           <nav class="col">
             <p>
@@ -184,6 +195,9 @@
 
         </section>
       </div>
+
+
+
 
       <section class="container four-column pad-vtop-40 pad-vbottom-120">
         <h3 class="alt bar small pad-vbottom-60">Advanced Materials and Instrumentation (MI)</h3>
@@ -304,8 +318,8 @@
             </ul>
           </div>
         </div>
-
       </section>
+
 
       <section class="container four-column pad-vtop-40 pad-vbottom-120">
         <h3 class="alt bar small pad-vbottom-60">Advanced Materials and Instrumentation (MI)</h3>
@@ -404,8 +418,10 @@
                   Other Instrumentation (MI9)
               </li>
             </ul>
-        </div>
-      </section>
+          </div>
+        </section>
+
+
 
       <section class="container four-column pad-vtop-40 pad-vbottom-120">
         <h3 class="alt bar small pad-vbottom-60">Biological Technologies (BT)</h3>
@@ -599,6 +615,8 @@
             </ul>
         </div>
       </section>
+
+
 
       <section class="container four-column pad-vtop-40 pad-vbottom-120">
         <h3 class="alt bar small pad-vbottom-60">Chemical and Environmental Technologies (CT)</h3>
@@ -813,6 +831,7 @@
         </div>
       </section>
 
+
       <section class="container four-column pad-vtop-40 pad-vbottom-120">
         <h3 class="alt bar small pad-vbottom-60">Electronic Hardware, Robotics and Wireless Technologies (EW)</h3>
         <div class="col-one-fourth">
@@ -933,6 +952,7 @@
             </ul>
         </div>
       </section>
+
 
       <section class="container four-column pad-vtop-40 pad-vbottom-120">
         <h3 class="alt bar small pad-vbottom-60">Information Technologies (IT)</h3>
@@ -1058,6 +1078,7 @@
             </ul>
         </div>
       </section>
+
 
       <section class="container four-column pad-vtop-40 pad-vbottom-120">
         <h3 class="alt bar small pad-vbottom-60">Internet of Things (I)</h3>
@@ -1227,6 +1248,7 @@
             </ul>
           </div>
         </div>
+
         <div class="col-three-fourths">
           <p class="subhead-smaller">
             Featured Companies
@@ -1298,6 +1320,7 @@
         </div>
       </section>
 
+
       <section class="container four-column pad-vtop-40 pad-vbottom-120">
         <h3 class="alt bar small pad-vbottom-60">Other Topics (OT)</h3>
         <div class="col-one-fourth">
@@ -1312,8 +1335,8 @@
             </ul>
           </div>
         </div>
-        <div class="col-three-fourths">
 
+        <div class="col-three-fourths">
           <div>
             <p class="subtopic-subhead"><a href="../topic/index.html">Other Topics (OT)</a></p>
             <ul class="subtopics">
@@ -1322,13 +1345,13 @@
               </li>
             </ul>
         </div>
-      </section>
+      </div>
+    </section>
+  </div>
 
-
-    </div>
 
     <!-- begin footer -->
-    <div class="container-fluid pad-vtop-40 pad-vbottom-80">
+    <div class="container-fluid pad-vtop-40 pad-vbottom-80 background-white">
       <footer class="container three-column">
         <div class="col">
           <p>
