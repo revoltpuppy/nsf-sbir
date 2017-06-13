@@ -176,7 +176,12 @@ nav {
 nav .logo {
   /*float: left;*/
   flex-direction: row;
-  height: 50px;
+  /*height: 50px;*/
+}
+nav .logo2 {
+  /*float: left;*/
+  flex-direction: row;
+  height: 40px;
 }
 nav ul {
   flex-direction: row;
