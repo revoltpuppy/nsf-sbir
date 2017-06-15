@@ -181,7 +181,8 @@ nav .logo {
 nav .logo2 {
   /*float: left;*/
   flex-direction: row;
-  height: 40px;
+  height: 50px;
+  border: 1px solid #f00;
 }
 nav ul {
   flex-direction: row;
