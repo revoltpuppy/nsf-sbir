@@ -26,7 +26,7 @@ If you’ve ever received a SBIR/STTR Phase II award from any agency (including 
 You need to submit this form to show the duration and expenditures of your current project.
 
 ### [SBIR/STTR Funding Agreement Certification (PDF)]({{site.baseurl}}/assets/files/awardee-files/SBIR_STTR_Funding_Agreement.pdf)
-Prospective SBIR/STTR awardees need to complete and submit this form so that the NSF can determine whether they’re eligible for an award. NSF will use this certification to determine your compliance during the funding term.
+Even though you completed this form when you received your Phase I award, you'll need to complete and submit an updated version so that the NSF can determine whether you're eligible for a Phase II award. NSF will use this certification to determine your compliance during the funding term.
 
 ### [Certificate of Current Cost or Pricing Data (Word doc)]({{site.baseurl}}/assets/files/awardee-files/Certificate_of_Current_Cost.docx)
 NSF will use this form to certify that your cost and pricing data are accurate and that you’re compliant throughout your funding term.
