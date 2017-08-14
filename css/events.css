@@ -3,24 +3,26 @@
   font-weight: 400;
   letter-spacing: -.0325em;
   font-size: 3rem;
+  border-top: 1px solid #000;
+  padding: 10px 0;
   /*font-weight: 800;*/
 
 }
 
-#events .event-listing,
-#events .event-listing li,
-#events ul.three-column,
-#events li.col {
+#events .event-upcoming-listing,
+#events .event-upcoming-listing li,
+#events ul.event-annual-listing,
+#events ul.event-annual-listing li {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-#events .event-listing {
+#events .event-upcoming-listing {
   padding: 60px 0;
 }
 
-#events .event-listing .date {
+#events .event-upcoming-listing .date {
   font: 700 2rem/1 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
   /*font-size: 2rem;*/
   letter-spacing: -.01em;
@@ -29,23 +31,75 @@
   /*color: #00A6D2;*/
 }
 
-#events .event-listing h3 {
+#events .event-upcoming-listing h3 {
   font-weight: 400;
   /*font-size: 3rem;
   letter-spacing: -.02em;*/
 }
 
-#events ul.three-column {
-  display: flex;
+#events .event-annual-listing h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 3rem 0 1rem 0;
+  position: relative;
+  /*border-bottom: 1px dotted #112e51;*/
+}
+#events .event-annual-listing h4:before {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  /*top: -15px;*/
+  top: -5px;
+  left: 0;
+  height: 1px;
+  width: 30px;
+}
+#events .event-annual-listing h4 a {
+  display: block;
+  border: 0;
 }
 
-#events ul.three-column li.col {
-  width: calc(33.33%);
-  flex-direction: row;
-  padding-right: 30px;
+#events .event-annual-listing p {
+  font-size: 1.2rem;
+  line-height: 1.5;
 }
 
-#events ul.three-column li.col h3 {
+#events ul.event-annual-listing {
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  display: block;
+}
+
+#events ul.event-annual-listing li.col {
+  /*width: calc(33.33%);*/
+  /*flex-direction: row;*/
+  margin-bottom: 60px;
+}
+
+#events ul.event-annual-listing li.col h3 {
   text-transform: uppercase;
   border-top: 1px solid #000;
+  /*padding-top: 1rem;*/
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+  #events ul.event-annual-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #events ul.event-annual-listing li.col {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (min-width: 800px) {
+  #events ul.event-annual-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #events ul.event-annual-listing li.col {
+    width: calc(33.33% - 10px);
+  }
 }
