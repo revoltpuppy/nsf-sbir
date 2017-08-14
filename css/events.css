@@ -4,10 +4,30 @@
   letter-spacing: -.0325em;*/
 }
 
-#events ul.three-column, #events li.col {
+#events .event-listing,
+#events .event-listing li,
+#events ul.three-column,
+#events li.col {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+#events .event-listing {
+  padding: 40px 0;
+}
+
+#events .event-listing .date {
+  font: 700 3rem/1 'Work Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  /*font-size: 2rem;*/
+  letter-spacing: -.01em;
+  text-transform: uppercase;
+  margin: 0;
+  color: #00A6D2;
+}
+
+#events .event-listing h3 {
+  font-weight: 500;
 }
 
 #events ul.three-column {
@@ -20,7 +40,7 @@
   padding-right: 30px;
 }
 
-#events ul li h3 {
+#events ul.three-column li.col h3 {
   text-transform: uppercase;
   border-top: 1px solid #000;
 }
