@@ -1,0 +1,26 @@
+
+#events h2 {
+  /*font-weight: 400;
+  letter-spacing: -.0325em;*/
+}
+
+#events ul.three-column, #events li.col {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#events ul.three-column {
+  display: flex;
+}
+
+#events ul.three-column li.col {
+  width: calc(33.33%);
+  flex-direction: row;
+  padding-right: 30px;
+}
+
+#events ul li h3 {
+  text-transform: uppercase;
+  border-top: 1px solid #000;
+}
