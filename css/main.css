@@ -12,7 +12,7 @@ b {
 strong {
   font-weight: 700;
 }
-h1, h2, h3, h4, h5, h6, ul, li, p {
+h1, h2, h3, h4, h5, h6, ul, ol, li, p {
   margin: 0;
   padding: 0;
   color: #212121;
@@ -84,7 +84,7 @@ h2.bar:before, h3.bar:before, h4.bar:before, h5.bar:before {
   height: 2px;
   width: 60px;
 }
-p, ul li {
+p, ol li, ul li {
   /*font-size: 1.4rem;
   line-height: 1.7;*/
   font-size: 1.4rem;
