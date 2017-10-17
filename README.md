@@ -9,7 +9,7 @@ Most of our documentation can be found in the **[wiki](https://github.com/18F/ns
 To set up the site on your local machine, follow these steps:
 
 1. [Install and configure Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup). If you're not comfortable with the command line, try [GitHub Desktop](https://desktop.github.com/).
-1. Download, install, and start [Docker Community Edition](https://www.docker.com/community-edition).
+1. Download, install, and start [Docker Community Edition](https://www.docker.com/community-edition). When Docker first runs, it will automatically run some setup commands behind the scenes. Once the light turns green, you’re ready to go.
 1. Clone the site. [More detail on this](https://help.github.com/articles/cloning-a-repository/).
 
     ```sh
